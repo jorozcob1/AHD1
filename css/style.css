@@ -1,0 +1,171 @@
+ body {
+     margin: 0;
+     text-align: center;
+ }
+ 
+ .cabecera {
+     background-color: black;
+     height: 80px;
+ }
+ 
+ .barra-nav {
+     text-align: right;
+ }
+ 
+ .logo {
+     width: 50px;
+     background-color: white;
+     border-radius: 50%;
+     position: absolute;
+     left: 50%;
+ }
+ 
+ .ancho-imag {
+     width: 50px;
+ }
+ 
+ .seccion {
+     height: 250px;
+     width: 33.33%;
+     float: left;
+ }
+ 
+ h1 {
+     color: #f2B705;
+     font-size: 24px;
+ }
+ 
+ .articulo1 {
+     background-color: #f2f2f2;
+     height: 200px;
+ }
+ 
+ .articulo1-seccion1 {
+     height: 200px;
+     width: 50%;
+     float: left;
+ }
+ 
+ .articulo1-seccion2 {
+     height: 200px;
+     width: 50%;
+     float: left;
+ }
+ 
+ .articulo1-seccion2>img {
+     width: 250px;
+     border-radius: 20px;
+ }
+ 
+ .articulo2 {
+     background-color: #f2B705;
+     height: 350px;
+ }
+ 
+ .seccion>img {
+     width: 150px;
+     border-radius: 20px;
+     box-shadow: 1px 1px 15px #000;
+     transition: 0.5s;
+ }
+ 
+ .seccion>img:hover {
+     transform: scale(1.2, 1.2);
+ }
+ 
+ .articulo3 {
+     background-color: #f2f2f2;
+     height: 400px;
+ }
+ 
+ .articulo3-seccion1 {
+     height: 320px;
+     width: 40%;
+     float: left;
+ }
+ 
+ .articulo3-seccion2 {
+     text-align: left;
+     height: 320px;
+     width: 60%;
+     float: left;
+     font-size: 14px;
+ }
+ 
+ .articulo3-seccion1>img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+ }
+ 
+ .articulo4 {
+     background-color: #f2B705;
+     height: 400px;
+ }
+ 
+ p {
+     text-align: left;
+ }
+ 
+ .articulo4-seccion1 {
+     height: 230px;
+ }
+ 
+ .div-col1 {
+     height: 160px;
+     width: 50%;
+     float: left;
+     height: 150px;
+     border: none;
+ }
+ 
+ .div-col1>input {
+     border: none;
+ }
+ 
+ .div-col2 {
+     height: 160px;
+     width: 50%;
+     float: left;
+     height: 150px;
+ }
+ 
+ .div-col2>textarea {
+     border: none;
+ }
+ 
+ .div-col2>textarea {
+     row-gap: 10px;
+ }
+ 
+ .div-col3 {
+     width: 100%;
+     float: left;
+     height: 50px;
+ }
+ 
+ .div-col3>input {
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     height: 45px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     transition: background-color 1s;
+     transition: color 1s linear;
+ }
+ 
+ .div-col3>input:hover {
+     background-color: rgb(83, 78, 78);
+     color: black;
+ }
+ 
+ footer {
+     background-color: #f2f2f2;
+     height: 60px;
+ }
+ 
+ textarea {
+     resize: none;
+ }
